@@ -4,7 +4,7 @@ HIGH_RISK_CONDITIONS = {"Heart Attack", "Heart Disease"}
 
 def predict_readmission(condition, length_of_stay):
     if condition in HIGH_RISK_CONDITIONS and length_of_stay >= 1:
-        return "READMIT"
+        return "NO READMIT"
     else:
         return "NO READMIT"
 
